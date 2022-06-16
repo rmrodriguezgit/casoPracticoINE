@@ -27,10 +27,10 @@
                     <th scope="col">CP</th>
                     <th scope="col">Clave Elector</th>
                     <th scope="col">CURP</th>
-                    <th scope="col">id_localidad</th>
+                    <!-- <th scope="col">id_localidad</th>
                     <th scope="col">año Registro</th>
                     <th scope="col">vigenciaP</th>
-                    <th scope="col">sección</th>
+                    <th scope="col">sección</th> -->
                     <th scope="col">estatus</th>
                     <th scope="col">credencial</th>
                     <th scope="col">editar/borrar</th>
@@ -47,10 +47,10 @@
                             echo ' <td>'.$res[6].'</td>';
                             echo ' <td>'.$res[7].'</td>';
                             echo ' <td>'.$res[8].'</td>';
-                            echo ' <td>'.$res[9].'</td>';
-                            echo ' <td>'.$res[10].'</td>';
-                            echo ' <td>'.$res[11].'</td>';
-                            echo ' <td>'.$res[12].'</td>';
+                            // echo ' <td>'.$res[9].'</td>';
+                            // echo ' <td>'.$res[10].'</td>';
+                            // echo ' <td>'.$res[11].'</td>';
+                            // echo ' <td>'.$res[12].'</td>';
                             echo ' <td>'.$res[13].'</td>';
                             echo "<td><a class='btn btn-primary' href=\"ver_credencial.php?id=$res[0]\">Ver Credencial</a></td>";
                             echo "<td><a class='btn btn-primary' href=\"edita.php?id=$res[id]\">Edit</a>  <a class='btn btn-danger' href=\"borra.php?id=$res[id]\" onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";
